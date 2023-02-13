@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Heebo', sans-serif;
+}
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 2.2em;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p {
+    margin: 0;
+    align-items: center;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+#topbar-icons {
+    display: flex;
+}
+
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.8em;
+    
+}
+
+#search-icon {
+    padding: 0 0.6em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+#mic-icon {
+    display: flex;
+    align-items: center;
+}
+
+#content img{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5px;
+}
+
+#video-content {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-video {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5px;
+}
+
+.title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.description {
+    margin: 0;
+}
+
+.video {
+    width: 500px;
+}
